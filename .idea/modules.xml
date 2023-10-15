@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algo-github/Semaine1tortue/Semaine1tortue.iml" filepath="$PROJECT_DIR$/algo-github/Semaine1tortue/Semaine1tortue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo-github/Semaine2if/Semaine2if.iml" filepath="$PROJECT_DIR$/algo-github/Semaine2if/Semaine2if.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo-github/Semaine3for/Semaine3for.iml" filepath="$PROJECT_DIR$/algo-github/Semaine3for/Semaine3for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo-github/Semaine4while/Semaine4while.iml" filepath="$PROJECT_DIR$/algo-github/Semaine4while/Semaine4while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apoo-github/apoo-github.iml" filepath="$PROJECT_DIR$/apoo-github/apoo-github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apoo-github/fiche1classses-objets/fiche1classses-objets.iml" filepath="$PROJECT_DIR$/apoo-github/fiche1classses-objets/fiche1classses-objets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apoo-github/fiche3nullVariablesThisSurcharge/fiche3nullVariablesThisSurcharge.iml" filepath="$PROJECT_DIR$/apoo-github/fiche3nullVariablesThisSurcharge/fiche3nullVariablesThisSurcharge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/math-github/math-github.iml" filepath="$PROJECT_DIR$/math-github/math-github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vinci1.iml" filepath="$PROJECT_DIR$/.idea/vinci1.iml" />
+    </modules>
+  </component>
+</project>
