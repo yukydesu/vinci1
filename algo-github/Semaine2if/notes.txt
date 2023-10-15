@@ -1,0 +1,65 @@
+- Variables : 
+
+Déclaration : int exemple;
+Initialisation : exemple = 0;
+
+Les deux : int exemple = 0;
+
+Racourci : 
+exemple =  exemple + 1 -> exemple++
+
+- Input :
+
+import java.util.Scanner;
+
+public satatic java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+int entier1 = scanner.nextInt();
+double reel1 = scanner.nextDouble();
+
+- Output :
+
+System.out.println("azerty");
+System.out.println(variable);
+System.out.println("variable : " + variable);
+System.out.println("somme : " + (variable1 + variable2);
+note : 
+raccourcis = sout 
+println = print + retour à la ligne
+print = print sans retour à la ligne
+
+Exemple de in-out :
+
+import java.util.Scanner;
+public class CaclulTva {
+	public static Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("Entrez le prix hors tva : ");
+		double prixHorsTva = scanner.nexrDouble();
+		double prixAvecTva = prixHorsTva + (prixHorsTva * 21/100);
+		System.out.println(" TVAC = " + prixAvecTva);
+		}
+	}
+
+- if :
+
+exemple :
+if (condition) {
+	instruction 1_1;
+	instruction 1_N;
+} else {
+	instruction 2_1;
+	instruction 2_M;
+}
+note : s'il y'a qu'une instruction -> pas besoin des {}.
+
+Expression Booleens :
+== égal
+!= différent
+< strictement plus petit
+<= plus petit ou égal
+> strictement plus grand
+>= plus grand ou égale
+&& et
+|| ou
+! non

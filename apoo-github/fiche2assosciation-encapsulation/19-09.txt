@@ -1,0 +1,20 @@
+Double -> Float
+
+Exemple de classe :
+
+class Cercle{
+
+	double rayon;
+
+	double calculerAire(){
+		return rayon * rayon * Math.PI;
+	}
+
+	public String toString(){
+	return "Cercle de rayon " + rayon;
+
+	}
+}
+
+type de référence : on stock l'adresse de l'objet, pas l'objet 
+type primitif : on stock directement la valeur

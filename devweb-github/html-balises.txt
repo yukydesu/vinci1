@@ -1,0 +1,61 @@
+Les Balises de Structures : sert à structurer le texte (paragraphe, bloc, titre, mise en évidence, citation, ...) 
+exemple = <h3> : titre de niveau 3
+
+Elements vides : qui ne posède pas de balise fermante. (aucun contenu lié)
+exemple : <br> -> passage à la ligne
+note : ne pas trop utiluser de break, faire la mise en forme avec CSS.
+
+A ne pas faire : chevaucher les balises = <p><em>HTML</p> est le cours le plus cool.</em>
+note : il faut d'abord fermer "em" avant de fermer "p".
+
+Un élément HTML fait partie d'une ou plusieur catégories. : rassembler les balises avec des caractéristiques similaire, les balise enfants qu'elles peuvent contenir
+exemple : la balise "p" ne peux contenir que des élément faisant parti de la même catégorie que lui.
+note : il existe des exception, pour voir tout ça rdv sur ce site : https://html.spec.whatwg.org/multipage/dom.html#kinds-of-content
+
+Elements sémantiques : élément auquel on attache une signification.
+perment d'avoir un code plus lisible et au navigateur de recherche de traiter plus efficacement l'indexation d'un site web
+exemple : "<header>" contiendra l'en-tête (bannière, logo, menu).
+note : toujours utiliser un élément sémantique plutôt que générique quand c'est approprié. 
+
+autre exemple :
+<footer> : pieds de page
+<nav> liste des liens utiles à la navigation (menu), se situe dans le header ou dans un body
+<section> et <article> créer une zone de texte qui peux elle même avoir des titres etc.
+<p> paragraphe, quand un paragraphe se termine le navigateur fait deux passage à la ligne,
+note : quand un élément de type bloc intervient dans un paragraphe -> le nav le considère comme terminé, 
+un paragraphe peux contenir des élément de type "en-ligne" comme "img".
+
+On peux spécifier un certain nombre d'attribut dans la balise <p> (utile après pour le CSS) comme
+id : permet de définir un style pour le paragraphe. id permet également de faire des liens au sein d'un document. 
+class : les élément d'une même classe auront le même rendu CSS
+title : affecte un titre au paragraphe, le nav affiche le titre quand la souris survole l'élément
+
+Les titres :
+il existe 6 niveau de titre <h1> est le plus au niveau, le nav affiche un titre en gras et de la grande police à la plus petite
+jusqu'au <h4> qui sera de la même taille que le paragraphe,
+le nav va séparé le titre du reste.
+une titre peux contenir des éléments de type "en-ligne",
+il peux avoir des attributs (commr pour le <p>)
+
+Les citations :
+<blockquote> : permet de citer un extrait d'une autre source,
+le nav affiche ça avec un tab avant.
+on peux préciser lui donné des attributla source du texte avec cite, exemple <blockquot cite="lien web"> citation <blockquote/>
+<q> : permet de citer un texte court, affiche le texte entre guillemet, peux aussi avoir des attributs.
+
+<pre> = permet l'affichage d'un texte comme celui qui a été écrit dans l'éditeur.
+note : <p> ou <div> ne doivent pas être utiliser dans un <pre>, on peux mettre des attribut
+
+<hr> : ligne horizontal qui sépar tout le site.
+
+Les listes :
+<ol> : ordered list; 1,2,3,4; englobe la liste
+<ul> : unordered list; °, -, *; englobe la liste
+<li> : list item; à mettre en chaque élément de la liste
+<dl> : definition list; engloble la liste  
+<dt> : definition title; le titre de la définition
+<dd> : definition description; la description de la déf
+
+L'emphasage : <em> = dit au navigateur que ce mot sera mit en évidence avec un style particulier, voir CSS
+<span> = 
+
