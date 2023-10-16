@@ -1,46 +1,41 @@
+import java.util.Objects;
 
 public class Membre {
-	//Ajoutez un attribut pour garder le nom du membre.
 
-	//Ajoutez un attribut pour garder le prénom du membre.
+    private String nom, prenom, tel;
+    private Membre parrain;
 
-	//Ajoutez un attribut pour garder le numéro de téléphone du membre.
+    public Membre(String nom, String prenom, String tel, Membre parrain) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.tel = tel;
+        this.parrain = parrain;
+    }
 
-	//Ajoutez un attribut pour garder, s'il y en a un, le membre qui a parrainé le membre courant.
-		
+    public Membre(String nom, String prenom, String tel) {
+        this(nom, prenom, tel, null);
+    }
 
-	
-	//Ajoutez un constructeur initialisant le nom, le prénom et le numéro de téléphone du membre. 
+    public String getNom() {return nom;}
+    public String getPrenom() {return prenom;}
+    public String getTel() {return tel;}
+    public Membre getParrain() {return parrain;}
 
+    public void setTel(String tel) {this.tel = tel;}
 
-	
-	//Ajoutez des getters pour tous les attributs
+    public boolean initParrain(Membre parrain) {
 
-
-
-
-
-
-	//Ajouter un setter pour le numéro de téléphone.
-
-
-
-
-
-
-	//Ajoutez une méthode permettant d'initialiser le parrain.
-	//Cette méthode renvoie false si le membre a déjà un parrain ou si le membre passé en paramètre est le membre lui-même. 
-	//Sinon, elle initialise le parrain et renvoie true.
-
-
-	
-		
-	//Ajoutez une méthode toString qui renverra toutes les informations du membre sous forme textuelle. 
-	//Si le membre a un parrain, il faut uniquement reprendre le prénom et le nom du parrain. Sinon, il faut dire que le membre n'a pas de parrain.
-
-
-
-
-
-
+        if(parrain == null || !((parrain.getNom().equals(nom)) && parrain.getPrenom().equals(prenom))) {
+            this.parrain = parrain;
+            return true;
+        }else{
+            return false;}
+    }
+    public String tostring() {
+        if (parrain != null)
+            return nom + " " + prenom + " " + tel + " " + parrain.getPrenom() + " " + parrain.getNom() + ".";
+        else{
+            return nom + " " + prenom + " " + tel + " Le membre n'a pas de parrain";
+        }
+    }
 }
