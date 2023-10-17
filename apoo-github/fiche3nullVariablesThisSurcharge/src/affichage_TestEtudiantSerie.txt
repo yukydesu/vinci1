@@ -1,20 +1,43 @@
-19890902-112, Capelle Alain (série 1)
-19900623-243, Lepage David (série 1)
-19911114-121, Tonneau Jeremy (série 1)
-19900101-139, Mimoun Brahim (série 1)
-Série 1
+19890902-112, Capelle Alain (sï¿½rie 1)
+19900623-243, Lepage David (sï¿½rie 1)
+19911114-121, Tonneau Jeremy (sï¿½rie 1)
+19900101-139, Mimoun Brahim (sï¿½rie 1)
+Sï¿½rie 1
 
 Election 1_____________________________
-Série 1 (délégué : Alain Capelle)
+Sï¿½rie 1 (dï¿½lï¿½guï¿½ : Alain Capelle)
 
 Election 2_____________________________
-Série 2
+Sï¿½rie 2
 
 Election 3_____________________________
-Série 1 (délégué : Alain Capelle)
+Sï¿½rie 1 (dï¿½lï¿½guï¿½ : Alain Capelle)
 
-Changement série 1________________________
-19900101-139, Mimoun Brahim (série 2)
+Changement sï¿½rie 1________________________
+19900101-139, Mimoun Brahim (sï¿½rie 2)
 
-Changement série 2________________________
-19890902-112, Capelle Alain (série 1)
+Changement sï¿½rie 2________________________
+19890902-112, Capelle Alain (sï¿½rie 1)
+
+-----------------------------
+
+19890902-112, Capelle Alain (sÃ©rie 1)
+19900623-243, Lepage David (sÃ©rie 1)
+19911114-121, Tonneau Jeremy (sÃ©rie 1)
+19900101-139, Mimoun Brahim (sÃ©rie 1)
+SÃ©rie 1
+
+Election 1_____________________________
+SÃ©rie 1 (dÃ©lÃ©guÃ© : Alain Capelle)
+
+Election 2_____________________________
+SÃ©rie 2
+
+Election 3_____________________________
+SÃ©rie 1 (dÃ©lÃ©guÃ© : Alain Capelle)
+
+Changement sÃ©rie 1________________________
+19900101-139, Mimoun Brahim (sÃ©rie 2)
+
+Changement sÃ©rie 2________________________
+19890902-112, Capelle Alain (sÃ©rie 1)
