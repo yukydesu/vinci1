@@ -1,0 +1,23 @@
+h1
+{
+    color: red;
+} 
+
+body
+{
+    background-color: antiquewhite;
+}
+
+ #carte
+ {
+    width: 800px;
+    margin:0 auto;
+    background-color: aquamarine;
+    text-align: center;
+    align-content: center;
+ }
+
+ ul li
+ {
+    list-style: none;
+ }
